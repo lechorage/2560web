@@ -1,0 +1,112 @@
+body {
+    background-color: #f2f1e6;
+}
+
+#intro {
+    text-align: center;
+    background-color:rgb(255,195,0);
+}
+
+li {
+    float: left;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar_wrap {
+    width: 1200px;
+    height: 60px;
+    margin-left: 35%;
+    overflow: hidden;
+
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #bebebe;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #ffc300;
+}
+
+#main_img {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 195, 0);
+}
+#main_img img{
+    position: absolute;
+    float: left;
+    left: 50%;
+    top:25%;
+}
+.web_container{
+    margin:0 auto;
+}
+
+.test{
+    width: 40%;
+    height:30%;
+}
+#introduction{
+    background-image: url(image/imovie.jpg);
+    position: absolute;
+    float: left;
+    width: 683px;
+    height:375px;
+    top: 55%;
+    left: 15%;
+}
+
+#todolist{
+    background-image: url(image/ihobby1.jpg);
+    position: absolute;
+    float: left;
+    height:375px;
+    width: 658px;
+    left: 50%;
+    top: 55%;
+}
+#body3{
+    width: 35%;
+    position: absolute;
+    top:15%;
+    left: 5%;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(49,49,49);
+}
+#body3 img{
+    width:35%;
+}
+
+#connection{
+    background-color: rgb(255,195,0);
+    position: absolute;
+    margin-left: 40%;
+    top:105%;
+    height: 7%;
+}
+#connection li {
+    display: inline;
+    font-size: 12px;
+    margin: 12px;
+    text-align: center;
+}
+#connection p{
+    font-size: 12px;
+    text-align: center;
+    color:white;
+}
