@@ -1,0 +1,1 @@
+document.getElementById('curdate').innerHTML = "Current Time: " + document.lastModified;

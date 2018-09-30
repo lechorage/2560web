@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto|Roboto+Slab" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>YuanSun Personal</title>
+</head>
+
+<body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="assets/js/googleSearch.js"></script>
+
+<div id="header" class="card bg-dark text-white">
+    <img src="assets/images/backend.jpeg" class="card-img" alt="Header Image" />
+    <div class="card-img-overlay">
+        <h4 class="card-title page-title align-middle" style="color:#77797c">YuanSun Personal Website</h4>
+    </div>
+</div>
+
+<div id="navbar" class="navbar navbar-expand-lg navbar-light navbar-color-fix">
+    <div class="container">
+        <a class="navbar-brand" href="#">Navigation</a>
+        <div id="navbarToggler" class="navbar-collapse">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="todo/index.html">To-do List</a>
+                </li>
+            </ul>
+            <form id="searchbox" class="form-inline my-2 my-lg-0" action="">
+                <input id="searchtext" class="form-control mr-sm-2" type="text" />
+                <button class="btn btn-outline-secondary my-2 my-sm-0" onclick="search()" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
+<br />
+<div id="breadcrumb" class="container">
+    <div>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">Home</li>
+        </ol>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-4 card">
+            <img class="card-img-top card-img-fix" src="assets/images/gallery.jpeg" alt="Gallery image cap" />
+            <div class="card-body">
+                <h5 class="card-title">Gallery</h5>
+                <p class="card-text index-content-fix">Some responsive photos.</p>
+                <a href="gallery.html" class="btn btn-secondary">Go to</a>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 card">
+            <img class="card-img-top card-img-fix" src="assets/images/about.jpeg" alt="About image cap" />
+            <div class="card-body">
+                <h5 class="card-title">About</h5>
+                <p class="card-text index-content-fix">Contents about me and about these pages.</p>
+                <a href="about.html" class="btn btn-secondary">Go to</a>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 card">
+            <img class="card-img-top card-img-fix" src="assets/images/Todo.jpeg" alt="ToDo List" />
+            <div class="card-body">
+                <h5 class="card-title">Todo</h5>
+                <p class="card-text index-content-fix">Todo List</p>
+                <a href="todo/index.html" class="btn btn-secondary">Go to</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div id="footer" class="card bg-dark text-white">
+    <div class="card-body">
+        <div class="container">
+            <a id="curdate"></a>
+            <script type="text/javascript" src="assets/js/curdate.js"></script>
+            <p class="copyright-word fright">
+                by <a href="https://github.com/lechorage"> Yuan Sun&nbsp;</a>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

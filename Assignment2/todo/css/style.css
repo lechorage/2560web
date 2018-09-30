@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fef5df;
+}
+
+.page-title {
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    font-size: 2.25em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-color-fix {
+    background-color: #ddd6c3;
+}
+
+.card-fix {
+    margin-top: 1.5em;
+}
+
+.done-fix {
+    color: #fff !important;
+}
+
+.copyright-word {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #e5dcc7;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.copyright-word a {
+    color: #ccc;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}

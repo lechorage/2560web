@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fef5df;
+}
+
+.card-img-overlay{
+    height: 30%;
+}
+
+
+.navbar-color-fix {
+    background-color: #e2e1dc;
+}
+
+.gallery-padding-fix {
+    margin: 1em 0;
+}
+
+.page-title {
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    font-size: 2.25em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.copyright-word {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #767676;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.copyright-word a {
+    color: #ccc;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.about-fix {
+    margin: 0;
+}
+
+.grey-content {
+    background-color: #e2e1dc;
+}
+
+.left-height-fix {
+    height: 100%;
+}
+
+.site-author-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 8em;
+    height: auto;
+    border: 0.1em solid #e2e1dc;
+    /* start*/
+    border-radius: 50%;
+    webkit-transition: 1.4s all;
+    moz-transition: 1.4s all;
+    ms-transition: 1.4s all;
+    transition: 1.4s all;
+    /* end */
+}
+
+.site-author-image:hover {
+    background-color: #e2e1dc;
+    webkit-transform: rotate(180deg) scale(1.1);
+    moz-transform: rotate(180deg) scale(1.1);
+    ms-transform: rotate(180deg) scale(1.1);
+    -webkit-transform: rotate(180deg) scale(1.1);
+    -moz-transform: rotate(180deg) scale(1.1);
+    -ms-transform: rotate(180deg) scale(1.1);
+    -o-transform: rotate(180deg) scale(1.1);
+    transform: rotate(180deg) scale(1.1);
+}
+
+.site-author-name {
+    padding-top: 0.8em;
+    font-size: 1.3em;
+    margin: 0;
+    text-align: center;
+    color: #222;
+    font-weight: 600;
+}
+
+.card-img-fix {
+    margin-top: 1em;
+    height: 12em;
+}
+
+.index-content-fix {
+    height: 5em;
+}
