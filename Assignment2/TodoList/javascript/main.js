@@ -1,5 +1,5 @@
 function done(obj) {
-    //delete from todo list
+    //delete from TodoList list
     del(obj);
 
     var element = obj.parentNode.parentNode;
@@ -100,7 +100,7 @@ function undo(obj) {
     deletea.appendChild(deletecontent);
     operations.appendChild(deletea);
 
-    //add to todo list
+    //add to TodoList list
     var Table = document.getElementById("TodoTable");
     var add = document.getElementById("inputTitle").parentNode.parentNode;
     Table.insertBefore(element, add);

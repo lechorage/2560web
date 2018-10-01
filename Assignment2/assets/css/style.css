@@ -3,11 +3,6 @@ body {
     background-color: #fef5df;
 }
 
-.card-img-overlay{
-    height: 30%;
-}
-
-
 .navbar-color-fix {
     background-color: #e2e1dc;
 }
@@ -27,14 +22,14 @@ body {
 
 .copyright-word {
     font-family: 'Roboto Slab', sans-serif;
-    color: #767676;
+    color: white;
     font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 .copyright-word a {
-    color: #ccc;
+    color: white;
 }
 
 .fleft {

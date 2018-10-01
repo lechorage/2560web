@@ -15,97 +15,88 @@
 </head>
 
 <body>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.javascript, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="assets/js/search.js"></script>
+    <script type="text/javascript" src="assets/javascript/search.js"></script>
 
-<div id="header" class="card bg-dark text-white">
-    <img src="assets/images/backend.jpeg" class="card-img" alt="Header Image" />
-    <div class="card-img-overlay">
-        <h5 class="card-title page-title align-middle">Yuan Sun Personal Page</h5>
-    </div>
-</div>
-
-<div id="navbar" class="navbar navbar-expand-lg navbar-light navbar-color-fix">
-    <div class="container">
-        <a class="navbar-brand" href="#">Navigation</a>
-        <div id="navbarToggler" class="navbar-collapse">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Gallery <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="todo/index.html">To-do List</a>
-                </li>
-            </ul>
-            <form id="searchbox" class="form-inline my-2 my-lg-0" action="">
-                <input id="searchtext" class="form-control mr-sm-2" type="text" />
-                <button class="btn btn-outline-secondary my-2 my-sm-0" onclick="search()" type="submit">Search</button>
-            </form>
+    <div id="header" class="card bg-dark text-white" style="border:0">
+        <img src="assets/images/backend.jpeg" class="card-img" alt="Header Image" />
+        <div class="card-img-overlay">
+            <h4 class="card-title page-title align-middle" style="color:#4c9e54">YuanSun Personal Website</h4>
         </div>
     </div>
-</div>
-<br />
-<div id="breadcrumb" class="container">
-    <div>
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active">Gallery</li>
-        </ol>
-    </div>
-</div>
 
-<div id="gallery" class="container">
-    <hr />
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="assets/images/001.jpeg" alt="001" class="img-thumbnail rounded gallery-padding-fix" />
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="assets/images/002.jpeg" alt="002" class="img-thumbnail rounded gallery-padding-fix" />
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="assets/images/003.jpeg" alt="003" class="img-thumbnail rounded gallery-padding-fix" />
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="assets/images/004.jpeg" alt="004" class="img-thumbnail rounded gallery-padding-fix" />
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="assets/images/005.jpeg" alt="005" class="img-thumbnail rounded gallery-padding-fix" />
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="assets/images/006.jpeg" alt="006" class="img-thumbnail rounded gallery-padding-fix" />
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="assets/images/007.jpeg" alt="007" class="img-thumbnail rounded gallery-padding-fix" />
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="assets/images/008.jpeg" alt="007" class="img-thumbnail rounded gallery-padding-fix" />
-        </div>
-    </div>
-</div>
-<br />
-<div id="footer" class="card bg-dark text-white">
-    <div class="card-body">
+    <div id="navbar" class="navbar navbar-expand-lg navbar-light navbar-color-fix" style="background-color: #fef5df; border: 1px solid #ffd570;">
         <div class="container">
-            <a id="curdate"></a>
-            <script type="text/javascript" src="assets/js/curdate.js"></script>
-            <p class="copyright-word fright">
-                by <a href="https://github.com/lechorage"> Yuan Sun&nbsp;</a>
-            </p>
+            <a class="navbar-brand" href="#">Navigation</a>
+            <div id="navbarToggler" class="navbar-collapse">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Gallery <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="TodoList/index.html">To-do List</a>
+                    </li>
+                </ul>
+                <form id="searchbox" class="form-inline my-2 my-lg-0" action="">
+                    <input id="searchtext" class="form-control mr-sm-2" type="text" />
+                    <button class="btn btn-outline-secondary my-2 my-sm-0" onclick="search()" type="submit">Search</button>
+                </form>
+            </div>
         </div>
     </div>
-</div>
+    <br />
+    <div id="breadcrumb" class="container" style="background-color: #fef5df;">
+        <div>
+            <ol class="breadcrumb" style="background-color: #fef5df; border: 1px solid #ffd570;">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Gallery</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="gallery" class="container">
+        <hr />
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="assets/images/004.jpeg" alt="004" class="img-thumbnail rounded gallery-padding-fix" />
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="assets/images/005.jpeg" alt="005" class="img-thumbnail rounded gallery-padding-fix" />
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="assets/images/006.jpeg" alt="006" class="img-thumbnail rounded gallery-padding-fix" />
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="assets/images/007.jpeg" alt="007" class="img-thumbnail rounded gallery-padding-fix" />
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="assets/images/008.jpeg" alt="007" class="img-thumbnail rounded gallery-padding-fix" />
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id="footer" class="card bg-dark text-white" style="background-color: #68927d !important">
+        <div class="card-body">
+            <div class="container">
+                <a id="curdate"></a>
+                <script type="text/javascript" src="assets/javascript/curdate.js"></script>
+                <p class="copyright-word fright">
+                    by <a href="https://github.com/lechorage"> Yuan Sun&nbsp;</a>
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
