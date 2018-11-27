@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Delete product by ID</title>
+        <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.min.js"></script>
+        <script
+            src="https://cdn.bootcss.com/angular.js/1.7.0/angular-route.min.js"></script>
+    </head>
+    <body ng-app="app" ng-controller="myctrl">
+        <a>Delete product by ID</a>
+        <form ng-submit="submitForm()">
+            <div id="id">
+                <label>ID</label>
+                <input type="text" name="id" placeholder="Please input product ID" ng-model="id">
+            </div>
+            <button type="submit" class="btn btn-primary">submit</button>
+        </form>
+        <br />
+    </body>
+    <script>
+        var formApp = angular.module('app', []);
+
+        formApp.controller("myctrl", function($scope, $http) {
+            $scope.id = null;
+            $scope.product = null;
+            $scope.submitForm = function() {
+                var parameter = JSON.stringify({"id":$scope.id});
+                $http.post('http://localhost:8090/api/products/delete', parameter).then(function successCallback(response) {
+                        console.log(response);
+                        alert("success");
+                    }, function errorCallback(response) {
+                        console.log(response);
+                });
+            };
+        });
+    </script>
+</html>

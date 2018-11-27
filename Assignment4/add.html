@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Add new product</title>
+        <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.min.js"></script>
+        <script
+            src="https://cdn.bootcss.com/angular.js/1.7.0/angular-route.min.js"></script>
+    </head>
+    <body ng-app="app" ng-controller="myctrl">
+        <a>Add new product</a>
+        <form ng-submit="submitForm()">
+            <div>
+                <label>Title</label>
+                <input type="text" name="title" placeholder="Please input product title" ng-model="title">
+            </div>
+            <div>
+                <label>Price</label>
+                <input type="text" name="price" placeholder="Please input product price(only number)" ng-model="price">
+            </div>
+            <div>
+                <label>instock</label>
+                <input type="text" name="instock" placeholder="Only true or false" ng-model="instock">
+            </div>
+            <div>
+                <label>Photo</label>
+                <input type="text" name="photo" placeholder="Please input product photo" ng-model="photo">
+            </div>
+            <button type="submit" class="btn btn-primary">submit</button>
+        </form>
+    </body>
+    <script>
+        var formApp = angular.module('app', []);
+
+        formApp.controller("myctrl", function($scope, $http) {
+            $scope.id = null;
+            $scope.product = null;
+            $scope.submitForm = function() {
+                var parameter = JSON.stringify({"title":$scope.title, "price":$scope.price, "instock":$scope.instock, "photo":$scope.photo});
+                $http.post('http://localhost:8090/api/products/', parameter).then(function successCallback(response) {
+                        console.log(response);
+                        alert("success");
+                    }, function errorCallback(response) {
+                        console.log(response);
+                });
+            };
+        });
+    </script>
+</html>
